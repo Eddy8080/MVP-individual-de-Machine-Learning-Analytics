@@ -24,12 +24,16 @@ definição do problema, preparação dos dados, modelagem, otimização e avali
 | Item | Detalhe |
 |---|---|
 | Nome | Wine Quality – Red Wine |
-| Fonte | UCI Machine Learning Repository |
-| Repositório | `Eddy8080/MVP-individual-de-Machine-Learning-Analytics` |
-| URL | `https://raw.githubusercontent.com/Eddy8080/MVP-individual-de-Machine-Learning-Analytics/main/winequality-red.csv` |
+| Fonte original | UCI Machine Learning Repository |
+| URL original (UCI) | https://archive.ics.uci.edu/dataset/186/wine+quality |
+| Referência | P. Cortez et al. — *Modeling wine preferences by data mining from physicochemical properties*, 2009 |
+| Carregamento no notebook | URL pública do repositório GitHub do autor (conforme requisito do MVP) |
+| URL de carregamento | `https://raw.githubusercontent.com/Eddy8080/MVP-individual-de-Machine-Learning-Analytics/main/winequality-red.csv` |
 | Registros | 1.599 |
 | Atributos | 12 (11 features físico-químicas + 1 variável-alvo) |
 | Variável-alvo | `quality` — nota de qualidade (0 a 10) |
+
+> **Nota:** Este dataset é proveniente do UCI Machine Learning Repository, repositório sugerido nas especificações do MVP. O dataset de qualidade de vinhos **não foi utilizado nas aulas da sprint** — é de domínio industrial/enológico, distinto dos datasets trabalhados em aula.
 
 O dataset é carregado diretamente via URL pública do repositório GitHub do autor — sem upload manual, login ou token.
 
